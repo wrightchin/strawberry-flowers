@@ -42,6 +42,8 @@ Validate the training,
 ### Results:
 ![map results](results/chart_yolov4-tiny-obj.png)
 
+According to the mAP graph, yolov4-tiny-obj_2000.weights is selected for testing the accuracy. 
+
 ![Alt text](results/predictions-3.jpg)
 
 [More photos ~](results)
