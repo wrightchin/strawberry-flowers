@@ -1,4 +1,4 @@
-### Strawberry Flowers Detector 
+### Strawberry Flowers Detector (Yolo V4 Tiny)
 First Phase: (Completed on 2021-10-11)
 - Implement a detection model for detecting the location of strawberry flowes in 2 dimensions.
 
