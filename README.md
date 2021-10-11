@@ -48,6 +48,9 @@ According to the mAP graph, yolov4-tiny-obj_2000.weights is selected for testing
 
 [More photos ~](results)
 
+### License:
+- [LICENSE](LICENSE)
+
 ### Acknowledgements & Collaborations:
 - Hong Kong Vegetable Marketing Organization ([VMO](https://www.vmo.org/?fbclid=IwAR3Lgiecqcd8clfMTHnLKpwK5ZoIVQzH9yuNOMiBeq5FTi4YQY41U2u-67s)) 
 - The University of Hong Kong | Department of Electrical and Eletronic Engineering ([HKUEEE](https://www.eee.hku.hk/))
