@@ -20,7 +20,31 @@ Third Phase: (Pending)
 - Data collected from Hong Kong Vegetable Marketing Organization ([VMO](https://www.vmo.org/?fbclid=IwAR3Lgiecqcd8clfMTHnLKpwK5ZoIVQzH9yuNOMiBeq5FTi4YQY41U2u-67s)) 
 
 ### Usage:
+Docker build,
+```
+docker build -t flower-detection-train .
+```
+Docker run,
+```
+docker run -it --gpus all -v $PWD:/app/ flower-detection-train /bin/bash
+```
 
+Start the training,
+```
+./darknet detector train ./Flower_detection/cfg/flower.data ./Flower_detection/cfg/yolov4-tiny-obj.cfg ./Flower_detection/cfg/yolov4-tiny.conv.29 -map
+```
+
+Validate the training,
+```
+./darknet detector test ./Flower_detection/cfg/flower.data ./Flower_detection/cfg/yolov4-tiny-obj.cfg ./Flower_detection/cfg/weights/yolov4-tiny-obj_2000.weights ./Flower_detection/test.jpg
+```
+
+### Results:
+![map results](results/chart_yolov4-tiny-obj.png)
+
+![Alt text](results/predictions-3.jpg)
+
+[More photos ~](results)
 
 ### Acknowledgements & Collaborations:
 - Hong Kong Vegetable Marketing Organization ([VMO](https://www.vmo.org/?fbclid=IwAR3Lgiecqcd8clfMTHnLKpwK5ZoIVQzH9yuNOMiBeq5FTi4YQY41U2u-67s)) 
