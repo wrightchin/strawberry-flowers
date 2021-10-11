@@ -1,15 +1,15 @@
-### Strawberry Flowers Detector (Yolo V4 Tiny)
+### Strawberry Flowers Detector
 First Phase: (Completed on 2021-10-11)
-- Implement a detection model for detecting the location of strawberry flowes in 2 dimensions.
+- Implement a detection model for detecting the location of strawberry flowers in 2 dimensions. (Yolo V4 Tiny)
 
 Second Phase: (In progress)
-- Implement a classifier for classifying a flower is ready for pollination or not.
+- Implement a classifier for classifying whether a flower is ready for pollination or not.
 
 Third Phase: (Pending)
-- Implement a Depth Evaluator for determine the location of strawberry flower in 3 dimensions.   
+- Implement a Depth Evaluator for determining the location of strawberry flowers in 3 dimensions.   
 
 
-### Working Environemnt: 
+### Working Environment: 
 - Cuda: 10.1
 - Cudnn: 7
 - OpenCV: 3.4.8
