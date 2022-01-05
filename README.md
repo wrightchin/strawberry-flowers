@@ -2,7 +2,7 @@
 First Phase: (Completed on 2021-10-11)
 - Implement a detection model for detecting the location of strawberry flowers in 2 dimensions. (Trained with Yolo V4 Tiny)
 
-Second Phase: (In progress)
+[Second Phase](https://github.com/wrightchin/strawberry-flowers-II): (Completed on 2022-01-05)
 - Implement a classifier for classifying whether a flower is ready for pollination or not.
 
 Third Phase: (Pending)
